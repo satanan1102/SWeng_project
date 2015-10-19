@@ -35,14 +35,23 @@ namespace ProComsys
             SqlConnection con = new SqlConnection(constr);
 
             con.Open();
-            SqlCommand cmd = new SqlCommand("select te.TLastName from Teacher te  where te.TFirstName ='"+id+"' ", con);
+            SqlCommand cmd = new SqlCommand("select t.TFirstName , t.TLastName  from Teacher t  " +
+                  "    where t.TID = LTRIM(' " + id + "')", con);
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                SNAME.Text = id+"  "+reader[0].ToString();
+                SNAME.Text = reader[0].ToString() + " " + reader[1].ToString() + "          "; //ตรงนี้
+                Session["FName"] = reader[0].ToString();
+                Session["LNAme"] = reader[1].ToString();
+
             }
-            reader.Close();
-            con.Close();
+
+            //SqlCommand cmd = new SqlCommand("select te.TLastName from Teacher te  where te.TFirstName ='"+id+"' ", con);
+            //SqlDataReader reader = cmd.ExecuteReader();
+            //if (reader.Read())
+            //{
+            //    SNAME.Text = id+"  "+reader[0].ToString();//นี้แหละ 
+            //}
            
         }
 

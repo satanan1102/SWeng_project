@@ -74,17 +74,17 @@
             <td>ชื่อ-นามสกุล</td>
         </tr>
         <tr>
-              <td class="auto-style5"><asp:Label  runat="server" Text="1"></asp:Label></td>
+              <td class="auto-style5"><asp:Label ID="Label2"  runat="server" Text="1"></asp:Label></td>
              <td class="auto-style6"><asp:Label  id="SID1"  runat="server" Text="Ad2"></asp:Label></td>
             <td class="auto-style7"><asp:Label ID="Name1" runat="server" Text="commit"></asp:Label></td>
         </tr>
                 <tr>
-              <td class="auto-style4"><asp:Label  runat="server" Text="2"></asp:Label></td>
+              <td class="auto-style4"><asp:Label ID="Label3"  runat="server" Text="2"></asp:Label></td>
              <td class="auto-style3"><asp:Label ID="SID2" runat="server" Text="Ad2"></asp:Label></td>
             <td class="auto-style1"><asp:Label ID="Name2" runat="server" Text="commit"></asp:Label></td>
         </tr>
                 <tr>
-              <td class="auto-style4"><asp:Label  runat="server" Text="3"></asp:Label></td>
+              <td class="auto-style4"><asp:Label ID="Label4"  runat="server" Text="3"></asp:Label></td>
              <td class="auto-style3"><asp:Label ID="SID3" runat="server" Text="Ad2"></asp:Label></td>
             <td class="auto-style1"><asp:Label ID="Name3" runat="server" Text="commit"></asp:Label></td>
         </tr>
@@ -100,32 +100,32 @@
             <td>ไม่เหมาะสม</td>
         </tr>
         <tr>
-              <td class="auto-style8"><asp:Label  runat="server" Text="1. จำนวนนิสิตที่ทำโครงงาน"></asp:Label></td>
+              <td class="auto-style8"><asp:Label ID="Label5"  runat="server" Text="1. จำนวนนิสิตที่ทำโครงงาน"></asp:Label></td>
              <td class="auto-style1"><asp:CheckBox ID="Ych1" runat="server"  /></td>
             <td class="auto-style1"><asp:CheckBox ID="Nch1" runat="server" /></td>
         </tr>
           <tr>
-              <td class="auto-style8"><asp:Label  runat="server" Text="2. ที่มาและความสำคัญของปัญหา"></asp:Label></td>
+              <td class="auto-style8"><asp:Label ID="Label6"  runat="server" Text="2. ที่มาและความสำคัญของปัญหา"></asp:Label></td>
              <td class="auto-style1"><asp:CheckBox ID="Ych2" runat="server"  /></td>
             <td class="auto-style1"><asp:CheckBox ID="Nch2" runat="server" /></td>
         </tr>
          <tr>
-              <td class="auto-style8"><asp:Label  runat="server" Text="3. วัตถุประสงค์ของโครงงาน"></asp:Label></td>
+              <td class="auto-style8"><asp:Label ID="Label7"  runat="server" Text="3. วัตถุประสงค์ของโครงงาน"></asp:Label></td>
              <td class="auto-style1"><asp:CheckBox ID="Ych3" runat="server"  /></td>
             <td class="auto-style1"><asp:CheckBox ID="Nch3" runat="server" /></td>
         </tr>
          <tr>
-              <td class="auto-style8"><asp:Label  runat="server" Text="4. การศึกษาเกี่ยวกับหลักการและทฤษฎีที่เกี่ยวข้อง"></asp:Label></td>
+              <td class="auto-style8"><asp:Label ID="Label8"  runat="server" Text="4. การศึกษาเกี่ยวกับหลักการและทฤษฎีที่เกี่ยวข้อง"></asp:Label></td>
              <td class="auto-style1"><asp:CheckBox ID="Ych4" runat="server"  /></td>
             <td class="auto-style1"><asp:CheckBox ID="Nch4" runat="server" /></td>
         </tr>
          <tr>
-              <td class="auto-style8"><asp:Label  runat="server" Text="5. ความเหมาะสมของวิธีการดำเนินงานที่นำเสนอ"></asp:Label></td>
+              <td class="auto-style8"><asp:Label ID="Label9"  runat="server" Text="5. ความเหมาะสมของวิธีการดำเนินงานที่นำเสนอ"></asp:Label></td>
              <td class="auto-style1"><asp:CheckBox ID="Ych5" runat="server"  /></td>
             <td class="auto-style1"><asp:CheckBox ID="Nch5" runat="server" /></td>
         </tr>
          <tr>
-              <td class="auto-style8"><asp:Label  runat="server" Text="6. ขอบเขตของโครงงาน"></asp:Label></td>
+              <td class="auto-style8"><asp:Label ID="Label10"  runat="server" Text="6. ขอบเขตของโครงงาน"></asp:Label></td>
              <td class="auto-style1"><asp:CheckBox ID="Ych6" runat="server"  /></td>
             <td class="auto-style1"><asp:CheckBox ID="Nch6" runat="server" /></td>
         </tr>
