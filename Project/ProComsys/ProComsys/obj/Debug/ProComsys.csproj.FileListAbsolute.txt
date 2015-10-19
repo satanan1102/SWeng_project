@@ -13,3 +13,8 @@ D:\งานว่าน\SWEN\ต้นฉบับ\PPP\Project\ProComsys\ProCom
 D:\งานว่าน\SWEN\ต้นฉบับ\PPP\Project\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
 D:\งานว่าน\SWEN\ต้นฉบับ\PPP\Project\ProComsys\ProComsys\obj\Debug\ProComsys.dll
 D:\งานว่าน\SWEN\ต้นฉบับ\PPP\Project\ProComsys\ProComsys\obj\Debug\ProComsys.pdb
+C:\Users\satanan\Documents\GitHub\SWeng_project\Project\ProComsys\ProComsys\bin\ProComsys.dll
+C:\Users\satanan\Documents\GitHub\SWeng_project\Project\ProComsys\ProComsys\bin\ProComsys.pdb
+C:\Users\satanan\Documents\GitHub\SWeng_project\Project\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
+C:\Users\satanan\Documents\GitHub\SWeng_project\Project\ProComsys\ProComsys\obj\Debug\ProComsys.dll
+C:\Users\satanan\Documents\GitHub\SWeng_project\Project\ProComsys\ProComsys\obj\Debug\ProComsys.pdb

@@ -1,16 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Student.Master" AutoEventWireup="true" CodeBehind="SAbout.aspx.cs" Inherits="ProComsys.WebForm4" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-    .auto-style8 {
-        width: 390px;
-        height: 343px;
-    }
-</style>
-</asp:Content>
+        .auto-style1 {
+      width: 676px;
+      height: 894px;
+        }
+    </style>
+    </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin-top:5%;">
         <div style="margin:1%;">
-        <div style=" border-color:red; width:100%; height:500px;"><br>
+        <div style=" border-color:red; width:100%; height:auto;"><br>
            <center> <h1>About Us</h1>
               </center>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Form File Senior Project เป็นเว็บไซต์ที่เพิ่ม
@@ -66,21 +66,84 @@
                                         นายสิริศักดิ์  สหพงษ์<br />
                                         เบอร์โทร:089-7183991<br />
                                        <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
+                                       
                                     </div>
-                                </div>              
+                                </div>
+
+                                        
                          </div>
                               </div>
                    
-                      
+                      <div style="font-size: large"> ผู้พัฒนาต่อ</div>
                </div>
+            <div style="margin-left:7%; ">
+                                <div class="col-sm-5 col-md-2">
+                                    <div class="thumbnail">
+                                       <img src="Image/noon.jpg" style="width: 150px; height: 200px;" /><br />
+                                        นางสาวศุภรัตน์&nbsp;ยงค์เจาะ<br />
+                                        เบอร์โทร:094-6064705<br />
+                                       <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
+                                      
+                                    </div>
+                                </div>
+                                   <div class="col-sm-5 col-md-2">
+                                    <div class="thumbnail">
+                                       <img src="Image/jari.jpg" style="width: 150px; height: 200px;">
+                                        <br />
+                                        นางสาวจริยา&nbsp;&nbsp;ศรีเอี่ยม<br />
+                                        เบอร์โทร:086-4388550<br />
+                                       <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
+                                      
+                                    </div>
+                                </div>
+                                  <div class="col-sm-5 col-md-2">
+                                    <div class="thumbnail">
+                                        <img src="Image/noi.jpg" style="width: 150px; height: 200px;">
+                                        <br />
+                                        นางสาวนราภรณ์&nbsp;ทนทาน<br />
+                                        เบอร์โทร:087-5656811<br />
+                                       <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
+                                        
+                                    </div>
+                                </div>
+                                  <div class="col-sm-5 col-md-2">
+                                    <div class="thumbnail">
+                                        <img src="Image/jan.jpg" style="width: 150px; height: 200px;">
+                                        <br />
+                                        นายอโนชา&nbsp;&nbsp;ขอนทอง<br />
+                                        เบอร์โทร:082-4077440<br />
+                                       <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
+                                       
+                                    </div>
+                                </div>  
+                <div class="col-sm-5 col-md-2">
+                                    <div class="thumbnail">
+                                        <img src="Image/wan.jpg" style="width: 150px; height: 200px;">
+                                        <br />
+                                        นางสาวศตนันท์&nbsp;&nbsp;ธุระกิจ<br />
+                                        เบอร์โทร:096-1650128<br />
+                                       <a href="http://wancpe.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
+                                      
+                                    </div>
+                                </div>
+            </div>
 
                 
         </div>
-            <br><br><br>
-             <h4>ติดต่อ</h4>
-        คณะวิศวกรรมศาสตร์ มหาวิทยาลัยนเรศวร เลขที่ 99 หมู่ 9 ตำบลท่าโพธิ์ อำเภอเมือง จังหวัดพิษณุโลก 65000 <br><br>
-          <center>  เว็บนี้เป็นส่วนหนึ่งของรายวิชา computer system Engineering :ผู้สอน ดร.สุรเดช จิตประไพกุลศาล ( <a href="suradetj@gmail.com">suradetj@gmail.com</a>)</center>
-   </div>
+          
+           
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+ <h4>&nbsp;ติดต่อ</h4>
+        คณะวิศวกรรมศาสตร์ มหาวิทยาลัยนเรศวร เลขที่ 99 หมู่ 9 ตำบลท่าโพธิ์ อำเภอเมือง จังหวัดพิษณุโลก 65000<br /><br />
+                      <center>  เว็บนี้เป็นส่วนหนึ่งของรายวิชา 305351Computer System Engineering ปีการศึกษา 2557 & รายวิชา 305371Software Engineering ปีการศึกษา 2558</center><br />
+                        <center>  ผู้สอน ดร.สุรเดช จิตประไพกุลศาล ( <a href="suradetj@gmail.com">suradetj@gmail.com</a>)</center>
+
+              
+            </div>
     
     </div>
+  <div>
+      <br />
+
+  </div>
 </asp:Content>
